@@ -34,9 +34,20 @@ button{
   
 }
 
+button:hover{
+transform: scale(1.1);
+}
+
+#equal{
+ width: 294px;
+ color: rgb(175, 74, 74);
+ font-weight: bold;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 550px) {
   .calc{
     width: 75%;
   }
@@ -64,20 +75,6 @@ button{
   }
  
 }
-
-button:hover{
-transform: scale(1.1);
-}
-
-#equal{
- width: 294px;
- color: rgb(175, 74, 74);
- font-weight: bold;
- font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-
-
 
 
 
