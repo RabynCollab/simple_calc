@@ -1,0 +1,52 @@
+ h1{
+   font-size: 3rem;
+   margin-bottom: 25px;
+   color:rgb(255, 255, 255);
+ }
+ .calc{
+   padding: 20px 40px 20px 40px; 
+  margin: 0 auto; 
+   text-align: center;
+   width: 500px;
+  background-color: chocolate;
+}
+
+
+input{
+  font-size: 1.5rem;
+width: 284px;
+height: 40px;
+}
+
+input:focus{
+  outline: none !important;
+  border-color: #3a4044;
+  background-color: bisque;
+}
+
+
+button{
+  margin: 5px 0px 5px 0;
+  width: 70px;
+  height: 60px;
+  font-size: 1.5rem;
+ transition: 0.5s all;
+  
+}
+
+button:hover{
+transform: scale(1.1);
+}
+
+#equal{
+ width: 294px;
+ color: rgb(175, 74, 74);
+ font-weight: bold;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
