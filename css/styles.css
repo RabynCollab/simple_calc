@@ -34,6 +34,37 @@ button{
   
 }
 
+
+
+@media screen and (max-width: 550px) {
+  .calc{
+    width: 100%;
+  }
+
+  h1{
+    font-size: 3rem;
+    margin-bottom: 25px;
+ 
+  }
+  input{
+    font-size: 1.5rem;
+  width: 209px;
+  height: 30px;
+  }
+  #equal{
+    width: 210px;
+
+   }
+
+   button{
+    width: 50px;
+    height: 40px;
+   
+    
+  }
+ 
+}
+
 button:hover{
 transform: scale(1.1);
 }
