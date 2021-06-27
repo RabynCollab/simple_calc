@@ -17,7 +17,7 @@ if(buttonText == 'X'){
 }else if(buttonText == 'GET RESULT'){
  
  given.value =  eval(given.value);
- givenInput = '';
+ givenInput = given.value;
 
 }else if(buttonText == 'C'){
   given.value = '';
